@@ -4,7 +4,7 @@ export default createGlobalStyle`
 
   :root {
     
-    --extra-dark-gray:#211F1F;
+    --extra-dark-gray:#1F1D1D;
     --dark-gray: #2C2C2C; 
     --medium-gray: #383838; //lines
     --light-gray: #787878;
@@ -32,7 +32,7 @@ export default createGlobalStyle`
     background-color: var(--extra-dark-gray);
     color: var(--gray-text);
 
-    padding: 5rem;
+    padding: 4.31rem;
 
     -webkit-font-smoothing: antialiased;
   }
@@ -45,7 +45,13 @@ export default createGlobalStyle`
 
   .App {
     background-color: var(--dark-gray);
+    border-radius: 8px;
 
-    height: 100vh;
+    height: 100%;
+  }
+
+  a { 
+    text-decoration: none;
+    color: var(--gray-text);
   }
 `;
