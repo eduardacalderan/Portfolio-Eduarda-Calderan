@@ -11,6 +11,8 @@ export const Content = styled.div`
 
   height: 3.11rem;
 
+  border-radius: 8px 8px 0 0;
+
   a,
   .person {
     padding: 0rem 2rem;
@@ -21,7 +23,7 @@ export const Content = styled.div`
 
   nav {
     display: flex;
-    margin-left: -872px;
+    margin-left: -740px;
 
     a {
       border-left: 1px solid var(--medium-gray);

@@ -11,6 +11,8 @@ export const Content = styled.div`
 
   height: 3.11rem;
 
+  border-radius: 0 0 8px 8px;
+
   .find-me {
     padding: 0rem 2rem;
 

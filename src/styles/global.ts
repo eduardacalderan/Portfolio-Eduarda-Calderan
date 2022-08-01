@@ -19,6 +19,8 @@ export default createGlobalStyle`
     --blue: #5290FF; //gradients
     
     --purple: #C98BDF; /* ??? */
+
+    --title: #E5E9F0;
   }
 
   * {
@@ -45,6 +47,7 @@ export default createGlobalStyle`
 
   .App {
     background-color: var(--dark-gray);
+    border: 1px solid var(--medium-gray);
     border-radius: 8px;
 
     height: 100%;
