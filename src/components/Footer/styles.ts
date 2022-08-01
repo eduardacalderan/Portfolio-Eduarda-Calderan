@@ -22,7 +22,7 @@ export const Content = styled.div`
 
   .find-me-icons {
     display: flex;
-    margin-left: -872px;
+    margin-left: -1200px;
 
     i {
       border-left: 1px solid var(--medium-gray);

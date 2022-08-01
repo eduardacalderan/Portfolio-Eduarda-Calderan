@@ -1,4 +1,5 @@
-import myAvatar1 from "../../assets/myAvatar1.png";
+import Me from "../../assets/me_with_glasses.png";
+import myavatar1 from "../../assets/myavatar1.png";
 import { Content } from "./style";
 
 export function Home() {
@@ -24,7 +25,7 @@ export function Home() {
           {" "}
           <div className="green"></div>
           <div className="blue"></div>
-          <img src={myAvatar1} alt="" />
+          <img src={Me} alt="" />
         </div>
       </Content>
     </>

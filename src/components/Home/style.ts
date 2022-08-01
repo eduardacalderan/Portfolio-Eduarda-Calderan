@@ -91,6 +91,9 @@ export const Content = styled.div`
     img {
       z-index: 100;
       position: relative;
+
+      height: 550px;
+      width: auto;
     }
   }
 `;
