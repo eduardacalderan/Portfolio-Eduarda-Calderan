@@ -24,7 +24,7 @@ export const Content = styled.div`
     display: flex;
     margin-left: -1200px;
 
-    i {
+    a {
       border-left: 1px solid var(--medium-gray);
       border-right: 1px solid var(--medium-gray);
       padding: 0rem 2rem;
@@ -48,7 +48,7 @@ export const Content = styled.div`
       font-size: 16px;
     }
 
-    i {
+    a {
       display: flex;
       align-items: center;
 

@@ -10,18 +10,24 @@ export default function Footer() {
         <Content>
           <p className="find-me">find me in:</p>
           <div className="find-me-icons">
-            <i>
+            <a
+              href="https://www.linkedin.com/in/eduarda-calderan-a02305215/"
+              target="_blank"
+            >
               <FaLinkedinIn />
-            </i>
-            <i>
+            </a>
+            <a
+              href="https://www.instagram.com/eduardacalderan/"
+              target="_blank"
+            >
               <BsInstagram />
-            </i>
+            </a>
           </div>
           <div className="my-github">
-            <i>
+            <a href="https://github.com/eduardacalderan" target="_blank">
               <p>@eduardacalderan</p>
               <BsGithub />
-            </i>
+            </a>
           </div>
         </Content>
       </Container>

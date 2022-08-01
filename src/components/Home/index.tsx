@@ -16,7 +16,7 @@ export function Home() {
           <p>//description</p>
           <p className="my-github">
             <span>const</span> myGitHub <span className="equal"> = </span>
-            <a href="https://github.com/eduardacalderan">
+            <a href="https://github.com/eduardacalderan" target="_blank">
               https://github.com/eduardacalderan
             </a>
           </p>
