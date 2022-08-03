@@ -5,12 +5,15 @@ export function Header() {
     <>
       <Container>
         <Content>
-          <p className="person">eduarda-calderan</p>
-          <nav>
-            <a href="">_hello</a>
-            <a href="">_about-me</a>
-            <a href="">_projects</a>
-          </nav>
+          <div className="person-and-nav">
+            <p className="person">eduarda-calderan</p>
+            <nav>
+              <a href="">_hello</a>
+              <a href="">_about-me</a>
+              <a href="">_projects</a>
+            </nav>
+          </div>
+
           <div className="contact-me">
             <a href="" className="contact-me">
               _contact-me

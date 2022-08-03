@@ -13,32 +13,47 @@ export const Content = styled.div`
 
   border-radius: 0 0 8px 8px;
 
-  .find-me {
-    padding: 0rem 2rem;
-
+  .all-find-me {
     display: flex;
-    align-items: center;
-  }
+    flex-direction: row;
 
-  .find-me-icons {
-    display: flex;
-    margin-left: -1200px;
-
-    a {
-      border-left: 1px solid var(--medium-gray);
-      border-right: 1px solid var(--medium-gray);
+    .find-me {
       padding: 0rem 2rem;
 
       display: flex;
       align-items: center;
 
-      font-size: 20px;
+      @media (max-width: 1880px) {
+        padding: 0rem 1.3rem 0rem 2rem;
+      }
+    }
+
+    .find-me-icons {
+      display: flex;
+
+      a {
+        border-left: 1px solid var(--medium-gray);
+        border-right: 1px solid var(--medium-gray);
+        padding: 0rem 2rem;
+
+        display: flex;
+        align-items: center;
+
+        font-size: 20px;
+
+        @media (max-width: 1880px) {
+          font-size: 90%;
+          padding: 0rem 1.3rem;
+        }
+      }
     }
   }
+
   .my-github {
     display: flex;
     align-items: center;
     border-left: 1px solid var(--medium-gray);
+
     p {
       margin-right: 0.5rem;
 
@@ -55,6 +70,10 @@ export const Content = styled.div`
       padding: 0rem 2rem;
 
       font-size: 18px;
+
+      @media (max-width: 1880px) {
+        padding: 0rem 1rem;
+      }
     }
   }
 `;

@@ -39,11 +39,11 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
-  
   body, input, button {
     font-family: 'Fira Code', monospace;
     font-size: 16px;
   }
+
 
   .App {
     background-color: var(--dark-gray);
@@ -58,3 +58,5 @@ export default createGlobalStyle`
     color: var(--gray-text);
   }
 `;
+
+// 1145

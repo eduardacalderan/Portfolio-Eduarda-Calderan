@@ -8,6 +8,10 @@ export const Content = styled.div`
 
   padding: 12.37rem 20.31rem;
 
+  @media (max-width: 1750px) {
+    padding: 8rem 10.31rem;
+  }
+
   .presentation {
     .hi {
       color: var(--title);
@@ -25,6 +29,26 @@ export const Content = styled.div`
       span {
         font-size: 2rem;
         color: var(--blue);
+
+        @media (max-width: 1814px) {
+          font-size: calc(2rem - 20%);
+
+          @media (max-width: 1285px) {
+            font-size: calc(2rem - 30%);
+          }
+        }
+      }
+
+      @media (max-width: 1814px) {
+        font-size: calc(3.87rem - 30%);
+      }
+
+      @media (max-width: 1681px) {
+        font-size: calc(3.87rem - 90%);
+      }
+
+      @media (max-width: 1285px) {
+        font-size: calc(3.87rem - 130%);
       }
     }
 
@@ -52,48 +76,95 @@ export const Content = styled.div`
   .sla {
     width: 389.8;
     height: 371.13px;
-    /* left: 980px; */
-    /* top: 178.81px; */
-
-    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 
     display: flex;
     align-items: center;
+
+    position: relative;
+
+    img {
+      z-index: 100;
+
+      height: 550px;
+      width: auto;
+
+      @media (max-width: 1814px) {
+        height: calc(550px - 30%);
+      }
+
+      @media (max-width: 1814px) {
+        height: calc(550px - 50%);
+      }
+    }
 
     .green {
       position: absolute;
       width: 235px;
       height: 254px;
-      left: 1114.08px;
-      top: 350.47px;
+      left: 80.08px;
+      top: 40px;
 
       background: #6bffbe;
       opacity: 0.7;
-      filter: blur(120px);
+      filter: blur(100px);
       transform: rotate(100deg);
       z-index: index 0;
+
+      @media (max-width: 1814px) {
+        width: calc(235px - 20%);
+        height: calc(254px - 20%);
+
+        filter: blur(90px);
+
+        opacity: 0.999;
+      }
+
+      @media (max-width: 1750px) {
+        left: 60px;
+      }
+
+      @media (max-width: 1285px) {
+        width: calc(235px - 50%);
+        height: calc(254px - 30%);
+
+        filter: blur(80px);
+
+        left: 80px;
+      }
     }
 
     .blue {
       position: absolute;
       width: 235px;
       height: 254px;
-      left: 1380.16px;
-      top: 500px;
+      left: 244.16px;
+      top: 180px;
 
       background: #5290ff;
       opacity: 0.7;
-      filter: blur(120px);
+      filter: blur(100px);
       transform: rotate(258deg);
       z-index: 0;
-    }
 
-    img {
-      z-index: 100;
-      position: relative;
+      @media (max-width: 1814px) {
+        width: calc(235px - 20%);
+        height: calc(254px - 20%);
 
-      height: 550px;
-      width: auto;
+        filter: blur(90px);
+
+        opacity: 0.999;
+      }
+
+      @media (max-width: 1750px) {
+        left: 190.16px;
+      }
+
+      @media (max-width: 1285px) {
+        width: calc(235px - 50%);
+        height: calc(254px - 30%);
+
+        filter: blur(80px);
+      }
     }
   }
 `;
