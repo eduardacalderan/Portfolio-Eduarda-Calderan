@@ -12,7 +12,21 @@ export const Content = styled.div`
     padding: 8rem 10.31rem;
   }
 
+  @media (max-width: 1155px) {
+    padding: 8rem 5rem;
+  }
+
+  @media (max-width: 904px) {
+    display: flex;
+    flex-direction: column;
+  }
+
   .presentation {
+    @media (max-width: 904px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
     .hi {
       color: var(--title);
     }
@@ -32,10 +46,14 @@ export const Content = styled.div`
 
         @media (max-width: 1814px) {
           font-size: calc(2rem - 20%);
+        }
 
-          @media (max-width: 1285px) {
-            font-size: calc(2rem - 30%);
-          }
+        @media (max-width: 1285px) {
+          font-size: calc(2rem - 35%);
+        }
+
+        @media (max-width: 904px) {
+          min-width: 400px;
         }
       }
 
@@ -48,7 +66,12 @@ export const Content = styled.div`
       }
 
       @media (max-width: 1285px) {
-        font-size: calc(3.87rem - 130%);
+        font-size: calc(3.87rem - 150%);
+      }
+
+      @media (max-width: 904px) {
+        position: relative;
+        max-width: 200px;
       }
     }
 
@@ -73,7 +96,7 @@ export const Content = styled.div`
     }
   }
 
-  .sla {
+  .my-avatar {
     width: 389.8;
     height: 371.13px;
 
@@ -81,6 +104,11 @@ export const Content = styled.div`
     align-items: center;
 
     position: relative;
+
+    @media (max-width: 904px) {
+      height: 0;
+      position: absolute;
+    }
 
     img {
       z-index: 100;
@@ -94,6 +122,18 @@ export const Content = styled.div`
 
       @media (max-width: 1814px) {
         height: calc(550px - 50%);
+      }
+
+      @media (max-width: 1155px) {
+        height: calc(550px - 65%);
+      }
+
+      @media (max-width: 904px) {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 0;
+        max-height: 0;
       }
     }
 
@@ -131,6 +171,27 @@ export const Content = styled.div`
 
         left: 80px;
       }
+
+      @media (max-width: 1155px) {
+        width: calc(235px - 70%);
+        height: calc(254px - 40%);
+
+        filter: blur(70px);
+
+        top: 70px;
+        left: 50px;
+      }
+
+      @media (max-width: 904px) {
+        width: 50px;
+        height: 50px;
+        filter: blur(60px);
+
+        opacity: 0.999;
+
+        top: 30px;
+        left: -180px;
+      }
     }
 
     .blue {
@@ -164,6 +225,27 @@ export const Content = styled.div`
         height: calc(254px - 30%);
 
         filter: blur(80px);
+      }
+
+      @media (max-width: 1155px) {
+        width: calc(235px - 70%);
+        height: calc(254px - 40%);
+
+        filter: blur(60px);
+
+        top: 200px;
+        left: 120px;
+      }
+
+      @media (max-width: 904px) {
+        width: 50px;
+        height: 50px;
+        filter: blur(60px);
+
+        opacity: 0.999;
+
+        top: 80px;
+        left: -10px;
       }
     }
   }

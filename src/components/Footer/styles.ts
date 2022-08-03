@@ -26,6 +26,10 @@ export const Content = styled.div`
       @media (max-width: 1880px) {
         padding: 0rem 1.3rem 0rem 2rem;
       }
+
+      @media (max-width: 1100px) and (min-width: 905px) {
+        font-size: 0.8888rem;
+      }
     }
 
     .find-me-icons {
@@ -61,6 +65,10 @@ export const Content = styled.div`
       align-items: center;
 
       font-size: 16px;
+
+      @media (max-width: 1100px) and (min-width: 905px) {
+        font-size: 0.8888rem;
+      }
     }
 
     a {

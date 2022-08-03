@@ -12,8 +12,8 @@ export function Home() {
             Eduarda Calderan{" "}
             <span className="tilte"> &gt; Full-stack developer</span>
           </h1>
-          <p>//description</p>
-          <p>//description</p>
+          <p>// find my profile on Github:</p>
+
           <p className="my-github">
             <span>const</span> myGitHub <span className="equal"> = </span>
             <a href="https://github.com/eduardacalderan" target="_blank">
@@ -21,7 +21,7 @@ export function Home() {
             </a>
           </p>
         </div>
-        <div className="sla">
+        <div className="my-avatar">
           {" "}
           <div className="green"></div>
           <div className="blue"></div>

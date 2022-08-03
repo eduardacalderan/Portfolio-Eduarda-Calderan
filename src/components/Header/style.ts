@@ -42,6 +42,10 @@ export const Content = styled.div`
         border-right: 1px solid var(--medium-gray);
       }
     }
+
+    @media (max-width: 1100px) and (min-width: 905px) {
+      font-size: 0.8888rem;
+    }
   }
 
   .contact-me {
@@ -49,6 +53,10 @@ export const Content = styled.div`
 
     display: flex;
     align-items: center;
+
+    @media (max-width: 1100px) and (min-width: 905px) {
+      font-size: 0.8888rem;
+    }
 
     a {
       padding: 0rem 2rem;
@@ -58,3 +66,5 @@ export const Content = styled.div`
     }
   }
 `;
+
+// 904 => tablet
