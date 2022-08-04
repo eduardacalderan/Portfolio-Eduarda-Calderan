@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable @typescript-eslint/naming-convention */
 import styled from "styled-components";
 
 export const Container = styled.header``;
@@ -13,6 +15,33 @@ export const Content = styled.div`
   width: 100%;
 
   border-radius: 8px 8px 0 0;
+
+  a {
+    transition: color 0.2s;
+    position: relative;
+
+    :hover,
+    ::selection {
+      color: white;
+    }
+
+    ::after {
+      content: "";
+      width: 0%;
+      height: 2px;
+      background: var(--orange);
+
+      position: absolute;
+      left: 0;
+      bottom: 0rem;
+
+      transition: width 0.2s;
+    }
+
+    :hover::after {
+      width: 100%;
+    }
+  }
 
   a,
   .person {
@@ -63,6 +92,26 @@ export const Content = styled.div`
 
       display: flex;
       align-items: center;
+
+      transition: color 0.2s;
+      position: relative;
+
+      ::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: var(--orange);
+
+        position: absolute;
+        left: 0;
+        bottom: -1rem;
+
+        transition: width 0.2s;
+      }
+
+      :hover::after {
+        width: 100%;
+      }
     }
   }
 `;
