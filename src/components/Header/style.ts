@@ -96,7 +96,7 @@ export const Content = styled.div`
       transition: color 0.2s;
       position: relative;
 
-      ::after {
+      .isActive::after {
         content: "";
         width: 0%;
         height: 2px;
