@@ -45,7 +45,7 @@ export const Content = styled.div`
 
         font-size: 20px;
 
-        transition: all 0.4s;
+        transition: all 0.3s;
 
         @media (max-width: 1880px) {
           font-size: 90%;
