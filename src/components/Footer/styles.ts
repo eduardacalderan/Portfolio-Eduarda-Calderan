@@ -45,9 +45,16 @@ export const Content = styled.div`
 
         font-size: 20px;
 
+        transition: all 0.4s;
+
         @media (max-width: 1880px) {
           font-size: 90%;
           padding: 0rem 1.3rem;
+        }
+
+        :hover {
+          background-color: var(--orange);
+          color: var(--dark-gray);
         }
       }
     }
@@ -57,6 +64,20 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
     border-left: 1px solid var(--medium-gray);
+
+    transition: all 0.3s;
+
+    :hover {
+      background-color: var(--orange);
+
+      a {
+        color: var(--dark-gray);
+      }
+
+      p {
+        color: var(--extra-dark-gray);
+      }
+    }
 
     p {
       margin-right: 0.5rem;
