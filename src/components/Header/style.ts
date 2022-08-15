@@ -81,7 +81,6 @@ export const Content = styled.div`
     border-left: 1px solid var(--medium-gray);
 
     display: flex;
-    align-items: center;
 
     @media (max-width: 1100px) and (min-width: 905px) {
       font-size: 0.8888rem;
@@ -104,7 +103,6 @@ export const Content = styled.div`
 
         position: absolute;
         left: 0;
-        bottom: -0.8 rem;
 
         transition: width 0.2s;
       }

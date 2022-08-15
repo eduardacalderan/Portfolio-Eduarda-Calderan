@@ -1,4 +1,4 @@
-import Me from "../../assets/me_with_glasses.png";
+import Me from "../../assets/me.png";
 import myavatar1 from "../../assets/myavatar1.png";
 import { Content } from "./style";
 
