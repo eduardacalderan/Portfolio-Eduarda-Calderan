@@ -6,19 +6,19 @@ export default createGlobalStyle`
     
     --extra-dark-gray:#1F1D1D;
     --dark-gray: #2C2C2C; 
-    --medium-gray: #383838; //lines
+    --medium-gray: #383838; 
     --light-gray: #787878;
     --gray-text: #B8B8B8;
 
     --orange: #FEA55F;
     --light-orange: #FFCFAB;
 
-    --light-green: #6BFFBE; //gradients
-    --overshadowed-green: #3C9D93; /* ???? */
+    --light-green: #6BFFBE; 
+    --overshadowed-green: #3C9D93; 
 
-    --blue: #5290FF; //gradients
+    --blue: #5290FF; 
     
-    --purple: #C98BDF; /* ??? */
+    --purple: #C98BDF; 
 
     --title: #E5E9F0;
   }
