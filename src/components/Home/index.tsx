@@ -1,5 +1,4 @@
 import Me from "../../assets/me.png";
-import myavatar1 from "../../assets/myavatar1.png";
 import { Content } from "./style";
 
 export function Home() {
@@ -9,8 +8,8 @@ export function Home() {
         <div className="presentation">
           <p className="hi">Hi all. I am</p>
           <h1>
-            Eduarda Calderan{" "}
-            <span className="tilte"> &gt; Full-stack developer</span>
+            Eduarda Calderan
+            <span className="tilte"> &gt; Front-end developer</span>
           </h1>
           <p>// find my profile on Github:</p>
 
