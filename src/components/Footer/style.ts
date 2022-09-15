@@ -43,11 +43,11 @@ export const Content = styled.div`
         display: flex;
         align-items: center;
 
-        font-size: 20px;
+        font-size: 18px;
 
         transition: all 0.3s;
 
-        @media (max-width: 1880px) {
+        @media (max-width: 2200px) {
           font-size: 90%;
           padding: 0rem 1.3rem;
         }
@@ -99,10 +99,6 @@ export const Content = styled.div`
       padding: 0rem 2rem;
 
       font-size: 18px;
-
-      @media (max-width: 1880px) {
-        padding: 0rem 1rem;
-      }
     }
   }
 `;

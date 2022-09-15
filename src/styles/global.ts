@@ -34,22 +34,16 @@ export default createGlobalStyle`
     background-color: var(--extra-dark-gray);
     color: var(--gray-text);
 
-    padding: 4.31rem;
+    padding: 3rem;
 
     -webkit-font-smoothing: antialiased;
   }
 
   body, input, button {
     font-family: 'Fira Code', monospace;
-    font-size: 16px;
   }
 
-
   .App {
-    background-color: var(--dark-gray);
-    border: 1px solid var(--medium-gray);
-    border-radius: 8px;
-
     height: 100%;
   }
 

@@ -1,7 +1,7 @@
 import { BsInstagram, BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
-import { Container, Content } from "./styles";
+import { Container, Content } from "./style";
 
 export default function Footer() {
   return (
