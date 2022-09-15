@@ -8,12 +8,20 @@ export const Content = styled.div`
 
   padding: 6.31rem 9.31rem;
 
+  @media (max-width: 1010px) and (min-width: 904px) {
+    padding: 6.31rem 6rem;
+  }
+
   @media (max-width: 904px) {
     display: flex;
     flex-direction: column;
   }
 
   .presentation {
+    @media (max-width: 1040px) {
+      margin-right: 2rem;
+    }
+
     @media (max-width: 904px) {
       display: flex;
       flex-direction: column;
@@ -111,6 +119,11 @@ export const Content = styled.div`
       transform: rotate(100deg);
       z-index: index 0;
 
+      @media (max-width: 1011px) {
+        left: 20.08px;
+        top: 60px;
+      }
+
       @media (max-width: 904px) {
         width: 50px;
         height: 50px;
@@ -135,6 +148,12 @@ export const Content = styled.div`
       filter: blur(65px);
       transform: rotate(258deg);
       z-index: 0;
+
+      @media (max-width: 1011px) {
+        width: 124px;
+
+        left: 110.16px;
+      }
 
       @media (max-width: 904px) {
         width: 50px;
