@@ -45,7 +45,7 @@ export const Content = styled.div`
 
   a,
   .person {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
 
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@ export const Content = styled.div`
     }
 
     a {
-      padding: 0rem 2rem;
+      padding: 0rem 1rem;
 
       display: flex;
       align-items: center;

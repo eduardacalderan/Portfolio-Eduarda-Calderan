@@ -11,10 +11,18 @@ export const Content = styled.div`
   }
 
   .icons {
-    padding: 1rem;
+    padding: 1rem 0;
   }
 
   .menu {
     padding: 1rem 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+
+    line-height: 1.687rem;
   }
 `;
