@@ -1,4 +1,5 @@
 /* eslint-disable import/extensions */
+import { MyInfosSideBar } from "./MyInfosSideBar";
 import { SideBar } from "./SideBar";
 import { Content } from "./style";
 
@@ -13,8 +14,9 @@ export function AboutMe() {
           </div>
         </div> */}
         <SideBar />
+        <MyInfosSideBar />
         <div className="personal-info">
-          <p>personal-info</p>
+          <p>my-infos</p>
           <div className="grid">
             {" "}
             <p>
