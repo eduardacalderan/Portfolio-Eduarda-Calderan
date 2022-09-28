@@ -1,11 +1,11 @@
 /* eslint-disable import/extensions */
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { AboutMe } from "../components/AbouteMe";
-import { ContactMe } from "../components/ContactMe";
 import { Header } from "../components/Header";
-import { Home } from "../components/Home";
-import { MyProjects } from "../components/MyProjects";
+import { AboutMe } from "../pages/AbouteMe";
+import { ContactMe } from "../pages/ContactMe";
+import { Home } from "../pages/Home";
+import { MyProjects } from "../pages/MyProjects";
 
 export function MyRoutes() {
   return (
