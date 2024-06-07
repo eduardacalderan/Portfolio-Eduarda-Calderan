@@ -9,7 +9,7 @@ export function Home() {
           <p className="hi">Hi all. I am</p>
           <h1>
             Eduarda Calderan
-            <span className="tilte"> &gt; Front-end developer</span>
+            <span className="tilte"> &gt; Software developer</span>
           </h1>
           <p>//play some games developed by me:</p>
 
