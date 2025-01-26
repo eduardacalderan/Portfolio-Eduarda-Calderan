@@ -5,7 +5,7 @@ export const Content = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
+  height: 100%;
   padding: 6.31rem 9.31rem;
 
   @media (max-width: 1010px) and (min-width: 904px) {
@@ -78,8 +78,8 @@ export const Content = styled.div`
   }
 
   .my-avatar {
-    width: 280.8px;
-    height: 250.13px;
+    width: 350.8px;
+    height: 300.13px;
 
     display: flex;
     align-items: center;
@@ -108,18 +108,18 @@ export const Content = styled.div`
 
     .green {
       position: absolute;
-      width: 134px;
-      height: 104px;
-      left: 30.08px;
-      top: 60px;
+      width: 100%;
+      height: 70%;
+      left: -50%;
+      top: 20%;
 
       background: #6bffbe;
-      opacity: 0.6;
+      opacity: 0.4;
       filter: blur(80px);
       transform: rotate(100deg);
       z-index: index 0;
 
-      @media (max-width: 1011px) {
+      /* @media (max-width: 1011px) {
         left: 20.08px;
         top: 60px;
       }
@@ -133,22 +133,22 @@ export const Content = styled.div`
 
         top: 30px;
         left: -180px;
-      }
+      } */
     }
 
     .blue {
       position: absolute;
-      width: 134px;
-      height: 154px;
-      left: 135.16px;
-      top: 115px;
+      width: 80%;
+      height: 100%;
+      left: 10%;
+      top: 50%;
 
       background: #5290ff;
-      opacity: 0.6;
+      opacity: 0.4;
       filter: blur(65px);
       transform: rotate(258deg);
       z-index: 0;
-
+      /* 
       @media (max-width: 1011px) {
         width: 124px;
 
@@ -164,7 +164,7 @@ export const Content = styled.div`
 
         top: 80px;
         left: -10px;
-      }
+      } */
     }
   }
 `;

@@ -10,6 +10,7 @@ export const Content = styled.div`
   border: 1px solid var(--medium-gray);
 
   height: 3.11rem;
+  width: 100%;
 
   border-radius: 0 0 8px 8px;
 
