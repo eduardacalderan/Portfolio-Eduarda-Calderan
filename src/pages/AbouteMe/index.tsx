@@ -42,9 +42,9 @@ export function AboutMe() {
               <br />
               * About me
               <br />
-              * I have 1 year and 5 months of еxperience in web
+              * I have 3 years of еxperience in web
               <br />
-              * development lorem ipsum dolor sit amet,
+              * and Robotic Process Automation (RPA),
               <br />
               * consectetur adipiscing elit, sed do eiusmod
               <br />

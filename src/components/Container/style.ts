@@ -7,4 +7,7 @@ export const Content = styled.div`
 
   display: flex;
   flex-direction: column;
+
+  height: 75%;
+  width: 90%;
 `;

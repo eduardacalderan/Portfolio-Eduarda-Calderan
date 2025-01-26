@@ -34,9 +34,11 @@ export default createGlobalStyle`
     background-color: var(--extra-dark-gray);
     color: var(--gray-text);
 
-    padding: 3rem;
+    /* padding: 8rem; */
 
     -webkit-font-smoothing: antialiased;
+
+    height: 100vh;
   }
 
   body, input, button {
@@ -44,7 +46,11 @@ export default createGlobalStyle`
   }
 
   .App {
-    height: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   a { 
