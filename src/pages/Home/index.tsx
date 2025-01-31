@@ -1,3 +1,4 @@
+// src\pages\Home\index.tsx
 import Me from "../../assets/me.png";
 import { Content } from "./style";
 
@@ -11,7 +12,7 @@ export function Home() {
             Eduarda Calderan
             <span className="tilte"> &gt; Software developer</span>
           </h1>
-          <p>//play some games developed by me:</p>
+          <p>//See some applications developed by me:</p>
 
           <p className="my-github">
             <span>const</span> myGitHub <span className="equal"> = </span>
