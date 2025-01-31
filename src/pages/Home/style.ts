@@ -1,3 +1,4 @@
+// src\pages\Home\style.ts
 import styled from "styled-components";
 
 export const Content = styled.div`
@@ -78,7 +79,7 @@ export const Content = styled.div`
   }
 
   .my-avatar {
-    width: 350.8px;
+    width: 500px;
     height: 300.13px;
 
     display: flex;
@@ -86,18 +87,20 @@ export const Content = styled.div`
 
     position: relative;
 
-    @media (max-width: 904px) {
+    /* @media (max-width: 904px) {
       height: 0;
       position: absolute;
-    }
+    } */
 
     img {
       z-index: 100;
 
-      height: 300px;
+      height: 500px;
       width: auto;
 
-      @media (max-width: 904px) {
+      border-radius: 50%;
+
+      @media (max-width: 1086px) {
         display: none;
         visibility: hidden;
         opacity: 0;
@@ -110,11 +113,11 @@ export const Content = styled.div`
       position: absolute;
       width: 100%;
       height: 70%;
-      left: -50%;
+      left: -30%;
       top: 20%;
 
       background: #6bffbe;
-      opacity: 0.4;
+      opacity: 0.3;
       filter: blur(80px);
       transform: rotate(100deg);
       z-index: index 0;
@@ -144,7 +147,7 @@ export const Content = styled.div`
       top: 50%;
 
       background: #5290ff;
-      opacity: 0.4;
+      opacity: 0.3;
       filter: blur(65px);
       transform: rotate(258deg);
       z-index: 0;
