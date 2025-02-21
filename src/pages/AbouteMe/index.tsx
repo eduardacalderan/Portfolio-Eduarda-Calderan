@@ -1,3 +1,4 @@
+// src\pages\AbouteMe\index.tsx
 /* eslint-disable import/extensions */
 import { MyInfosSideBar } from "./MyInfosSideBar";
 import { SideBar } from "./SideBar";
@@ -42,32 +43,37 @@ export function AboutMe() {
               <br />
               * About me
               <br />
-              * I have 3 years of еxperience in web
+              * I have 3 years of experience in Web Development
               <br />
-              * and Robotic Process Automation (RPA),
+              * and Robotic Process Automation (RPA).
               <br />
-              * consectetur adipiscing elit, sed do eiusmod
+              * Expertise in automating processes and data analysis,
               <br />
-              * tempor incididunt ut labore et dolore
+              * integrating different systems and platforms to communicate
+              efficiently,
               <br />
-              * magna aliqua. Ut enim ad minim veniam,
+              * easing the flow of information between departments,
               <br />
-              * quis nostrud exercitation ullamco laboris
+              * increasing process efficiency,
               <br />
-              * nisi ut aliquip ex ea commodo consequat.
+              * ensuring greater accuracy in data and operations,
               <br />
-              * Duis aute irure dolor in reprehenderit in
+              * and enhancing the customer experience.
               <br />
-              * <br />
-              * Duis aute irure dolor in reprehenderit in
+              * Proficient in process mapping,
               <br />
-              * voluptate velit esse cillum dolore eu fugiat
+              * able to break down each step into its most basic parts,
               <br />
-              * nulla pariatur. Excepteur sint occaecat
+              * tracking the movement of each element
+              <br /> * and clearly outlining the logical flow of
+              decision-making.
               <br />
-              * officia deserunt mollit anim id est laborum.
+              * Skilled in communication,
               <br />
-              */
+              * enabling me to interview employees in the business sector,
+              <br />
+              * ensuring a precise understanding of the activities performed
+              <br />* and the scope of business processes.
             </p>
           </div>
         </div>

@@ -7,10 +7,10 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  padding: 6.31rem 9.31rem;
+  padding: 0rem 9.31rem;
 
   @media (max-width: 1010px) and (min-width: 904px) {
-    padding: 6.31rem 6rem;
+    padding: 0rem 6rem;
   }
 
   @media (max-width: 904px) {
@@ -79,7 +79,7 @@ export const Content = styled.div`
   }
 
   .my-avatar {
-    width: 500px;
+    width: auto;
     height: 300.13px;
 
     display: flex;
@@ -95,7 +95,7 @@ export const Content = styled.div`
     img {
       z-index: 100;
 
-      height: 500px;
+      height: 100%;
       width: auto;
 
       border-radius: 50%;
@@ -122,7 +122,7 @@ export const Content = styled.div`
       transform: rotate(100deg);
       z-index: index 0;
 
-      /* @media (max-width: 1011px) {
+      @media (max-width: 1011px) {
         left: 20.08px;
         top: 60px;
       }
@@ -136,22 +136,22 @@ export const Content = styled.div`
 
         top: 30px;
         left: -180px;
-      } */
+      }
     }
 
     .blue {
       position: absolute;
-      width: 80%;
-      height: 100%;
+      width: 100%;
+      height: 70%;
       left: 10%;
-      top: 50%;
+      top: 20%;
 
       background: #5290ff;
       opacity: 0.3;
-      filter: blur(65px);
+      filter: blur(60px);
       transform: rotate(258deg);
       z-index: 0;
-      /* 
+
       @media (max-width: 1011px) {
         width: 124px;
 
@@ -167,7 +167,7 @@ export const Content = styled.div`
 
         top: 80px;
         left: -10px;
-      } */
+      }
     }
   }
 `;
